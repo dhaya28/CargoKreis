@@ -84,7 +84,7 @@ export default function D_Vehicleregistration() {
                 loginId  // Pass loginId to backend
             });
             console.log("Vehicle registered successfully:", response.data);
-            navigate('D_home')
+            navigate('/D_home');
             alert("Vehicle registered successfully");
         } catch (error) {
             console.error('Vehicle registration failed:', error.response ? error.response.data : error.message);

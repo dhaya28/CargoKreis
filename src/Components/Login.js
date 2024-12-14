@@ -48,7 +48,7 @@ function Login() {
                             onChange={(e)=>setUsername(e.target.value)}
                             >
                         </input><br /><br />
-                        <lable>Password</lable>
+                        <lable>Password</lable><br/>
                         <input type='password' onChange={(e)=>setPassword(e.target.value)}></input>
                         <br /><br />
                         <button className='btn'>Log in</button>
